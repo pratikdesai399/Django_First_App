@@ -4,5 +4,6 @@ from . import views
 
 urlpatterns = [
     #Whenever you get a / i.e. home request use the home function from view.py
-    path('',views.home, name='home')
+    path('',views.home, name='home'),
+    path("add", views.add, name = 'add')
 ]
